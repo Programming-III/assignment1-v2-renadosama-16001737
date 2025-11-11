@@ -15,10 +15,10 @@ Instructor();
 Instructor(string department, int experienceYears);
 ~Instructor();
 void display();
-string getdepartment();
-int getexperienceYears();
-void setdepartment();
-void setexperienceYears();
+string getDepartment();
+int getExperienceYears();
+void setDepartment();
+void setExperienceYears();
 
 
 };
