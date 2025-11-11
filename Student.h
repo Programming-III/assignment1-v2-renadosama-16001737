@@ -7,12 +7,19 @@
 //#write student class here
 
 class Student{
-protected:
+private:
 int yearLevel;
 string major;
 
 public:
+student(int yearLevel, string major);
+student();
+~Student();
 void display();
+void SetyearLevel();
+void Setmajor();
+int getyearLevel();
+string getMajor();
 
 };
 
