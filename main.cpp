@@ -33,15 +33,43 @@ int getId(){
 void setName(){
    Name=name;}
 void setId(){
-   Id=Id;}
+   Id=Id; }
+
+}
 
 
-   };
+   
 // ==================== Student Class Implementation ====================
+class Student{
 
+int yearLevel;
+string major;
 
+student(int yearLevel, string major){
+this->yearLevel=yearLevel;
+this->major=major; }
 
+student(){};
 
+~Student(){
+delete Student(); }
+
+void display(){
+cout<<"year level: " << yearLevel << "major: " << major<<endl; }
+
+void SetYearLevel(){
+YearLevel=yearLevel;}
+
+void Setmajor(){
+major=major}
+
+int getYearLevel(){
+return yearLevel;}
+
+string getMajor(){
+return major;}
+
+}
 
 
 // ==================== Instructor Class Implementation ====================
