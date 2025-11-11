@@ -16,9 +16,9 @@ student(int yearLevel, string major);
 student();
 ~Student();
 void display();
-void SetyearLevel();
+void SetYearLevel();
 void Setmajor();
-int getyearLevel();
+int getYearLevel();
 string getMajor();
 
 };
