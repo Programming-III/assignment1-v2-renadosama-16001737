@@ -11,11 +11,29 @@ using namespace std;
 // ==================== Person Class Implementation =========================
 public Person {
    
-   
+string name;
+int Id;
 
+person(){}
 
+person (string name, int Id){
+this->name=name;
+this->Id=Id;}
 
+~Person(){
+   delete Person;}
 
+void display(){
+   cout<<"name: "<<name<<"id: " Id<<endl; }
+
+string getName(){
+return name; }
+int getId(){
+   return Id; }
+void setName(){
+   Name=name;}
+void setId(){
+   Id=Id;}
 
 
    };
