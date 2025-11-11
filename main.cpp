@@ -129,8 +129,7 @@ this->currentStudents=currentStudents;
    delete Student[];}
 
 void addStudent(const Student& s){
-   
-
+   Student++;
 
 }
 displayCourseInfo(){
@@ -169,6 +168,7 @@ void setCurrentStudent(){
 // ==================== Main Function ====================
 int main() {
    
-    
+   
+    Student * s = new Student();
     return 0;
 }
