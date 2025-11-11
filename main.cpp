@@ -9,14 +9,16 @@
 using namespace std;
 
 // ==================== Person Class Implementation =========================
+public Person {
+   
+   
 
 
 
 
 
 
-
-
+   };
 // ==================== Student Class Implementation ====================
 
 
