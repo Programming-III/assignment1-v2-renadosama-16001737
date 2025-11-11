@@ -5,13 +5,16 @@
 using namespace std;
 
 class Person{
-protected:
+private:
 string name;
-int id;
+int Id;
 
 public:
 void display();
-
+string getName():
+int getId();
+void setName();
+void setId();
 
 
 
