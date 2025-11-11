@@ -74,11 +74,39 @@ return major;}
 
 // ==================== Instructor Class Implementation ====================
 
+class Instructor{
+string department;
+int experienceYears;
+
+
+Instructor(){}
+Instructor(string department, int experienceYears){
+this->department=department;
+this->experienceYears=experienceYears; }
+
+~Instructor(){
+   delete Instructor();}
+
+void display(){
+   cout<<"department: "<<department << "experience years: " << experienceYears<<endl;
+
+}
+
+string getDepartment(){
+   return department;}
+
+int getExperienceYears(){
+   returm experienceYears; }
+
+void setDepartment(){
+   Department=department;}
+
+void setExperienceYears(){
+   ExperienceYears=experienceYears;}
 
 
 
-
-
+}
 // ==================== Course Class Implementation ====================
 
 
