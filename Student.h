@@ -7,7 +7,7 @@
 //#write student class here
 
 class Student{
-private:
+protected:
 int yearLevel;
 string major;
 
