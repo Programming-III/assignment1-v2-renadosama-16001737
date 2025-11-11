@@ -4,14 +4,22 @@
 #include <string>
 using namespace std;
 
+class Person{
+private:
+string name;
+int id;
+
+public:
+void display(){
+  cout<< "name: " << name << "id: " << id << endl;
+}
+
+
+
+
+};
+
 //#write Person class here
-
-
-
-
-
-
-
 
 
 
