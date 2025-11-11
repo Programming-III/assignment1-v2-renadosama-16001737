@@ -109,13 +109,63 @@ void setExperienceYears(){
 }
 // ==================== Course Class Implementation ====================
 
+class Course{
+
+string courseCode;
+string courseName;
+int maxStudents;
+Student* students;
+int currentStudents;
+
+Course(){}
+Course(string courseCode, string courseName, int maxStudents, Student* students, int currentStudents){
+this->courseCode=courseCode;
+this->courseName=courseName;
+this->maxStudents=maxStudents;
+this->currentStudents=currentStudents;
+}
+
+~Course(){
+   delete Student[];}
+
+void addStudent(const Student& s){
+   
+
+
+}
+displayCourseInfo(){
+   cout<<"courseCode: "<<courseCode<< "courseName: " << courseName << "maxStudents: " << maxStudents<< "currentStudents: " << currentStudents << endl;
+
+}
+string getCourseCode(){
+   return courseCode;}
+string getCourseName(){
+   return courseName;}
+
+int getMaxStudents(){
+   return maxStudent; }
+
+int getCurrentStudents(){
+   return currentStudents;}
+
+void setCourseCode(){
+   CourseCode=courseCode;}
+
+void setCourseName(){
+   CourseName=courseName; }
+
+void setMaxStudents(){
+   MaxStudents=maxStudents;}
+
+void setCurrentStudent(){
+   CurrentStudent=currentStudents;}
 
 
 
 
 
 
-
+}
 // ==================== Main Function ====================
 int main() {
    
