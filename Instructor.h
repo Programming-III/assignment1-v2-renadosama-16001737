@@ -11,7 +11,15 @@ string department;
 int experienceYears;
 
 public:
+Instructor();
+Instructor(string department, int experienceYears);
+~Instructor();
 void display();
+string getdepartment();
+int getexperienceYears();
+void setdepartment();
+void setexperienceYears();
+
 
 };
 
