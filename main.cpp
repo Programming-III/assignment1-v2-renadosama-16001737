@@ -167,8 +167,14 @@ void setCurrentStudent(){
 }
 // ==================== Main Function ====================
 int main() {
-   
+   Student s = new student();
+   Instructor i = new Instructor();
+   Course c = new Course();
+   s.displayInfo();
+   i.displayInfo();
+   c.displayCourseInfo();
    
     Student * s = new Student();
+   s->addStudent();
     return 0;
 }
