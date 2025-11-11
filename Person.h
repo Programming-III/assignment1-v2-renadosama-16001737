@@ -10,6 +10,9 @@ string name;
 int Id;
 
 public:
+person();
+person (string name, int Id);
+~Person();
 void display();
 string getName():
 int getId();
